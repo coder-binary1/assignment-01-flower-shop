@@ -5,6 +5,17 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* shared common style */
+.primary-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+}
+
 /* header related style */
 header {
   display: flex;
@@ -14,7 +25,6 @@ header {
   background: rgba(229, 84, 115, 0.1);
   padding: 50px 240px 0;
 }
-
 .banner-title {
   width: 708px;
   color: #272727;
@@ -28,12 +38,53 @@ header {
   font-weight: 400;
   margin: 32px 0;
 }
-.banner > button {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 700;
-  border: 0;
-  border-radius: 8px;
-  background: #e55473;
-  padding: 20px 43px;
+
+/* main related style */
+section {
+  margin-top: 130px;
+}
+
+/* featured flowers */
+.featured-flower {
+  text-align: center;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.section-desc {
+  width: 594px;
+  margin: 20px auto 40px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.flower-types {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.flower-as-bg {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  margin-bottom: 32px;
+}
+.pink-flower {
+  background: url(../images/pngwing\ 6.png), rgba(167, 33, 98, 0.15);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.red-flower {
+  background: url(../images/pngwing\ 5.png), rgba(5, 151, 160, 0.15);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.yellow-flower {
+  background: url(../images/pngwing\ 7.png), rgba(71, 125, 17, 0.15);
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
