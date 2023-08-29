@@ -61,7 +61,7 @@ section {
 }
 .section-desc {
   width: 594px;
-  margin: 20px auto 40px;
+  margin: 20px auto 48px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
@@ -118,4 +118,27 @@ section {
   gap: 185px;
   background: rgba(229, 84, 115, 0.05);
   padding: 100px 0;
+}
+
+/* instagram section */
+.insta-img {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+/* subscribe-section */
+.subscribe-section {
+  background: url(../images/Rectangle\ 9.png);
+  padding: 120px 310px;
+  background-repeat: no-repeat;
+}
+.subscribe-section input[type="email"] {
+  padding: 22px 300px 22px 22px;
+  border: 0;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 16px;
 }
