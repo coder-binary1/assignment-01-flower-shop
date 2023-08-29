@@ -42,17 +42,22 @@ header {
 /* main related style */
 section {
   margin-top: 130px;
+  text-align: center;
+}
+.section-center {
+  margin-left: 240px;
+  margin-right: 240px;
 }
 
 /* featured flowers */
-.featured-flower {
-  text-align: center;
-}
 .section-title {
   color: #272727;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+}
+.section-title span {
+  color: #e55473;
 }
 .section-desc {
   width: 594px;
@@ -91,7 +96,7 @@ section {
 
 /* our feature */
 .our-feature {
-  margin: 128px 240px 0;
+  margin-top: 128px;
   padding: 87px 175px;
   display: flex;
   justify-content: space-between;
@@ -103,4 +108,14 @@ section {
   font-family: Lato;
   font-size: 24px;
   font-weight: 600;
+}
+
+/* hot deal  */
+.hot-deal-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 185px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
 }
