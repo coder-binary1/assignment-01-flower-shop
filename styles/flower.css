@@ -128,6 +128,22 @@ footer {
   gap: 24px;
 }
 
+/* extra section */
+.flower-delivery-service {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.sevice-detalis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sevice-detalis img {
+  border-radius: 8px;
+}
 /* subscribe-section */
 .subscribe-section {
   background: url(../images/Rectangle\ 9.png);
