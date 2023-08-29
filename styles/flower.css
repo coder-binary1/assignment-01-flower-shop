@@ -88,3 +88,19 @@ section {
   background-repeat: no-repeat;
   background-position: bottom center;
 }
+
+/* our feature */
+.our-feature {
+  margin: 128px 240px 0;
+  padding: 87px 175px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.feature-desc {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+}
