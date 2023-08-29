@@ -40,7 +40,8 @@ header {
 }
 
 /* main related style */
-section {
+section,
+footer {
   margin-top: 130px;
   text-align: center;
 }
@@ -141,4 +142,30 @@ section {
   font-size: 16px;
   font-weight: 400;
   margin-right: 16px;
+}
+
+/* footer */
+footer {
+  background: #111010;
+  padding: 128px 0;
+}
+.footer-title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+.footer-title span {
+  color: #e55473;
+}
+.footer-desc {
+  width: 625px;
+  margin: 24px auto 32px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+}
+.copywrite {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
